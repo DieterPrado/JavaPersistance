@@ -11,6 +11,7 @@
 
 ### General info
 
+
 This repository contains files and explanations of things learned in the Platzi's Persistance Java course. The course taught how to create our own databases and send queries from java to create, read, update or delete (CRUD) information. It also taught how to get and store information from public APIs. The CatApp directory contains the CRUD data and catapp directory contains files used to work, get, store and delete information from public APIs.
 ------------
 
