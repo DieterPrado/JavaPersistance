@@ -48,7 +48,7 @@ This repository contains files and explanations of things learned in the Platzi'
 - Complete the installation process.
 
 ##### PostMan 8.7.0
-- Go to https://www.postman.com/downloads/ and click on the download the app and button.
+- Go to https://www.postman.com/downloads/ and click on the download the app button.
 - Complete the installation process.
 
 
