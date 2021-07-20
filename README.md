@@ -79,6 +79,7 @@ This repository contains files and explanations of things learned in the Platzi'
 
 - API Rest and HTTP methods. A RESTful API is an architectural style for an application program interface (API) that uses HTTP requests to access and use data. 
 
+| ------------ | ------------ |
 | Get | Postman, gets information.|
 | Post | Postman, stores or send information.|
 | Put/Patch | Postman, update or edits information.|
