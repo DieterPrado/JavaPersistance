@@ -1,10 +1,14 @@
 # Persistance Java
 ### Table of contents
-- General info
-- Technologies
-- Setup
-- Things learned
-- Commands
+- [General info](#general-info)
+- [Technologies](#technologies)
+- [Setup](#setup)
+- [Things learned](#things-learned)
+>- JDBC.
+>- CRUD.
+>- RestApi
+>- Gson.
+- [Commands](#commands)
 
 
 ------------
@@ -54,30 +58,50 @@ This repository contains files and explanations of things learned in the Platzi'
 
 ------------
 ### Things learned
-- Connect to MySQL from NetBeans.
-- Create a database .
-- Apply CRUD (create, read, update, delete) to our database.
+- JDBC, its an API for Java that manages java connections to databases. Somne classes methods are:
+>- DriverManager.getConnection() - Establish and return a connection object.
+>- Connection.createStatement() - Returns a statement object to execute SQL statements.
+>- Statement.executeQuery() - Execute a SQL SELECT statement and returns a result set object.
+>- PreparedStatement() - An object that represents a precompiled SQL statement.
+>- ResultSet - A table of data representing a database result set. The ResultSet interface provides getter methods (getBoolean, getLong) for retrieving column values from the current row.
+
+- Connect to MySQL from NetBeans using JDBC.
+
+- Create a database.
+
+- Apply CRUD to our database. It is the acronym for Create, Read, Update and Delete, which is used to refer to basic functions in databases.
+
 - Send querie's from java.
+
 - Where data is stored.
+
 - How to use PostMan.
-- API Rest and HTTP methods.
-- API keys.
+
+- API Rest and HTTP methods. A RESTful API is an architectural style for an application program interface (API) that uses HTTP requests to access and use data. 
+
+| Get | Postman, gets information.|
+| Post | Postman, stores or send information.|
+| Put/Patch | Postman, update or edits information.|
+| Delete | Postman, deletes information.|
+
+- API key. A unique identifier used to authenticate a user, developer, or calling program to an API.
+
 - How to get data from public APIs.
+
 - Store, manipulate and show data from public APIs.
+
+- Gson. A Java library that can be used to convert Java Objects into their JSON representation.
 
 
 
 ------------
 ### Commands
-|  Command | Function  |
+| Statement | Function  |
 | ------------ | ------------ |
 | SELECT | SQL syntax, used in sent queries to select the information to be used.   |
 | FROM | SQL syntax, used in sent queries to specify from where the information will be obtained. |
 | WHERE | SQL syntax, used in sent queries to filter information trhough conditions.|
 | UPDATE | SQL syntax, used in sent queries to update the table with new information.|
 | DELETE | SQL syntax, used in sent queries to delete information.|
-| Get | Postman, gets information.|
-| Post | Postman, stores or send information.|
-| Put/Patch | Postman, update or edits information.|
-| Delete | Postman, deletes information.|
+
 
